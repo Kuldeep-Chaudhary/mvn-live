@@ -285,13 +285,15 @@ const MicroHeader = ({ scrollToSection, data, isFixed }) => {
                   </div>
 
                   <div className="top-area">
-                    <div className="inner-logo d-none d-md-block">
+                    <div className="inner-logo ">
                       <p>
                         <span>Office:</span> {contactData?.[2]?.short_description}
                       </p>
                       <p>
                         <span>Talk:</span>{contactData?.[2]?.sub_heading}
                       </p>
+                    </div>
+
                       {pathname.includes("aeroone-gurgaon") && (
                         <>
                       <p>
@@ -314,7 +316,6 @@ const MicroHeader = ({ scrollToSection, data, isFixed }) => {
                       </p>
                       </>
                       )}
-                    </div>
                     <ul className="sub_menu">
                       <li>
                         <span htmlFor="school" className="d-block w-100">
