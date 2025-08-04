@@ -292,6 +292,28 @@ const MicroHeader = ({ scrollToSection, data, isFixed }) => {
                       <p>
                         <span>Talk:</span>{contactData?.[2]?.sub_heading}
                       </p>
+                      {pathname.includes("aeroone-gurgaon") && (
+                        <>
+                      <p>
+                        <span>Vidhi Negi </span>
+                      </p>
+                      <p>
+                        <span>Mail:</span>smtm@mvninfrastructure.com
+                      </p>
+                      <p>
+                        <span>Talk:</span>9311051426
+                      </p>
+                      <p>
+                        <span>Archi</span>
+                      </p>
+                      <p>
+                        <span>Mail:</span>smto@mvninfrastructure.com
+                      </p>
+                      <p>
+                        <span>Talk:</span>9870101385
+                      </p>
+                      </>
+                      )}
                     </div>
                     <ul className="sub_menu">
                       <li>

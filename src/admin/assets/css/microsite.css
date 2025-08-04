@@ -187,3 +187,14 @@ padding: 5px 0px;}
 .microsite-area .microbox .inner-table .tabletwo td {padding-right: 25px;}
 .microsite-area .microbox .inner-table .tabletwo td .form-control{border: 1px dashed #45464f;}
 .space-create{width: 80px;}
+
+/* For mobile screens only */
+.strip_section .swiper-pagination-bullet-active{
+    background-color: #FA9E57;
+}
+@media (max-width: 767px) {
+  .strip_section .swiper-slide img {
+    height: 100%; /* or a fixed value like 300px if needed */
+    object-fit: cover;
+  }
+}
